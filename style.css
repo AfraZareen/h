@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+  
+}
+
+header{
+    width: 100%;
+    padding: 15px 70px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    width: 70px;
+}
+header .logo img{
+    width: 100%;
+}
+header nav{
+    display:flex;
+}
+header nav li{
+    margin: 0px 15px;
+}
+header nav li a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.container{
+    width: 90%;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+}
+.container h1{
+    margin: 10px 0px;
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+.container .link a{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 12px;
+    display: inline-block;
+}
+.container .cross{
+    width: 70px;
+    display: flex;
+    
+}
+.container .cross img{
+    width: 70px;
+    
+}
+.container .content{
+    margin-top: 5%;
+    position: relative;
+    width: 49%;
+}
+.small{
+    
+    width: 100%;
+    position: absolute;
+    bottom: -0%;
+    
+}
+.small img{
+    width: 80px;
+    margin: auto;
+    margin-left: 450%;
+}
+.bgimg{
+    text-align: center;
+    position: relative;
+}
+.bgimg img{
+    width: 80%;
+
+}
+.shadow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 105%;
+    height: 100%;
+    background: rgb(239, 239, 80);
+    z-index: -1;
+    clip-path: circle(250px at 400px 170px)
+}
