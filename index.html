@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,51 +18,74 @@
     <title>NIKE</title>
 </head>
 <body>
-    <header>
+    <div class="icon" >
+        <a href="https://www.facebook.com/nike/" target="_blank"><img src="icons8-facebook.gif" alt="Facebook" width="30"></a> &nbsp;
+        <a href="https://www.instagram.com/nike/?hl=en" target="_blank"><img src="icons8-instagram.gif" alt="Instagram" width="30"></a> &nbsp;
+        <a href=""><img src="icons8-whatsapp.gif" alt="Whatsapp" width="30"></a> &nbsp;
+        <a href="https://twitter.com/nikestore?lang=en" target="_blank"><img src="icons8-twitter.gif" alt="Twitter" width="30"></a> &nbsp;
+    </div>
+    
+    <div class="vl">
+        
+        <header>
+        
             <div class="logo">
-                <img src="logo.png" alt="">
+                <img src="logo.png" alt="nike logo">
             </div>
         <nav>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">SHOP</a></li>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="What's new.html">WHAT'S NEW</a></li>
+                <li><a href="Men.html">MEN</a></li>
+                <li><a href="Women.html">WOMEN</a></li>
+                <li><a href="Kids.html">KIDS</a></li>
+                <li><a href="About us.html">ABOUT US</a></li>
+                <li><a href="Contact.html">CONTACT</a></li> &nbsp; &nbsp; &nbsp; &nbsp; 
+                <input type="text" placeholder="Search"> &nbsp; &nbsp; 
+                <i class="fa fa-search"></i> &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; 
+                <i class="fa fa-bars"></i> &nbsp; &nbsp; &nbsp; 
+               
         </nav>
+       
     </header>
     
+    
     <div class="container">
-        
         <div class="content">
             <div class="cross">
-                <img src="logo.png" alt=""> 
-                <img src="air logo.png" alt="">
+                <img src="logo.png" alt="nike logo"> 
+                <img src="air logo.png" alt="air jordan logo">
             </div>
-            <h1>
-                JUST <br> DO <br> IT.
-            </h1>
-            <div class="link">
-                <a href="#">BUY NOW</a>
+            <div class="section">
+                <h1>
+                    JUST <br> DO <br> <span class="color_change">IT.</span> 
+                </h1>
+                <div class="linkcart">
+                    <a href="#" type="button" target="_blank">BUY NOW</a>
+                </div>
             </div>
-            <div class="small">
-                <li><img src="shoe 3.png" alt=""></li>
-                <li><img src="shoe 5.png" alt=""></li>
-                <li><img src="shoe 8.png" alt=""></li>
-                <li><img src="shoe 9.png" alt=""></li>   
+            
+            <div class="smaller_shoes">
+                <li><img class="change" data-bg="#85b8ea" src="small 1.png" alt="shoe 1"></li>
+                <li><img data-bg="#da2829" src="small 2.png" alt="shoe 2"></li>
+                <li><img data-bg="#000000" src="small 3.png" alt="shoe 3"></li>
+                <li><img data-bg="#e5c78d" src="small 4.png" alt="shoe 4"></li>   
             </div>
             
         </div>
         <div class="bgimg">
             <div class="shadow"></div>
-            <div class="bigshoes">
-                <img src="shoe 3.png" alt="">
+            <div class="big_shoes">
+                <img src="small 1.png" alt="">
                 
             </div>
             
 
         </div>
     </div>
+    </div>
+    
+
     <script src="main.js"></script>
 </body>
+
 </html>
