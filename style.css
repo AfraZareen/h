@@ -11,6 +11,11 @@
     height: 569px;
     margin-left: 50px;
   }
+  .vl2 {
+    border-left: 4px solid black;
+    height: 700px;
+    margin-left: 50px;
+  }
 .icon{
     padding-top: 20%;
     padding-left: 0.8%;
@@ -43,7 +48,7 @@ nav input[type=text]{
     font-size: 14px;
     justify-content: space-around;
     color: black;
-    padding: 2px 5px; 
+    padding: 4px 5px;
     border-radius: 30px;  
 }
 header .logo{
@@ -159,9 +164,70 @@ a:active{
     padding: 10px;
     border-radius: 10%;
 }
+
+
+
+
+
 .trans{
     transition: 0.5s;
 }
 .trans:hover{
     transform: translateY(-10px);
 }
+
+.summer{
+    font-size: 58px;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+    font-family: 'Monomaniac One', sans-serif;
+}
+.some-txt{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Abel', sans-serif;
+}
+
+.new_images{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+}
+.new_images img{
+    margin: 10px;
+}
+.slide{
+    text-align: center;
+    width: 270px;
+    overflow: hidden;
+    padding-left: 30px;
+}
+.slide img{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+.slide:hover img{
+    transform: scale(1.2);
+}
+/*img{
+    
+}
+img:hover{
+    transform:translateZ(20px) ;
+}
+.slider{
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding-bottom: 40%;
+    padding-left: 15%;
+}
+.slide-track{
+    display: flex;
+    
+}
+
