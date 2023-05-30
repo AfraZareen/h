@@ -65,6 +65,7 @@ header nav li a{
     text-decoration: none;
     text-transform: capitalize;
     color: #000;
+    
 } 
 header nav li a:hover{
     color: red;
@@ -126,6 +127,7 @@ a:active{
     width: 100%;
     position: absolute;
     bottom: -30%;
+    
 }
 .smaller_shoes img{
     width: 100px;
@@ -133,6 +135,7 @@ a:active{
     text-align: center;
     
 }
+
 .bgimg{
     text-align: right;
     position: relative;
@@ -155,4 +158,10 @@ a:active{
     border: 2px solid #85b8ea;
     padding: 10px;
     border-radius: 10%;
+}
+.trans{
+    transition: 0.5s;
+}
+.trans:hover{
+    transform: translateY(-10px);
 }
