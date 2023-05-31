@@ -1,9 +1,10 @@
+/* same as the style.css until line 82*/
 *{
     padding: 0px;
     margin: 0px;
     list-style: none;
     box-sizing: border-box;
-    height: fit-content;
+    height: f;
   
 }
 .vl {
@@ -79,6 +80,8 @@ header nav li a:hover{
 a:active{
     color: red;
 }
+/*Contact Us styling*/
+/*complete section  styling*/
 .contact{
     position: relative;
     min-height: 50vh;
@@ -91,16 +94,19 @@ a:active{
     align-items: center;
     flex-direction: column;
 }
+/*content inside the contact styled with width aligmnents */
 .contact .content{
     max-width: 800px;
     text-align: center;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 25px;
 }
+/*heading 2 of the section page */
 .contact .content h2{
     font-size: 36px;
     font-weight:500 ;
 }
+/*content styling below the main heading*/
 .left{
     width: 100%;
     display: flex;
@@ -108,16 +114,19 @@ a:active{
     align-items: center;
     margin-top: 20px;
 }
+/*styling of the left side info of the page*/
 .left .left-info{
     width: 50%;
     display: flex;
     flex-direction: column;
 }
+/*2 section box styling on the left side */
 .left .left-info .box{
     position: relative;
     padding: 30px 0;
     display: flex;
 }
+/*styling of the icons and its arrangements*/
 .left .left-info .box .iconns{
     min-width: 60px;
     height: 40px;
@@ -126,6 +135,7 @@ a:active{
     align-items: center;
     font-size: 22px;
 }
+/*text on the left side section*/
 .left .left-info .box .text{
     display: flex;
     margin-left: 20px;
@@ -135,11 +145,13 @@ a:active{
     line-height: 170%;
     font-family: 'Abel', sans-serif;
 }
+/*h3 heading above some info of contact*/
 .left .left-info .box .text h3{
     font-weight: 600;
     color: red;
     font-size: 24px;
 }
+/*form styling on the right side of the page*/
 .msg-form{
     width: 50%;
     padding-top: 50px;
@@ -149,6 +161,7 @@ a:active{
     background: #000;
     border-radius: 20px;
 }
+/*its heading on the top part of the form*/
 .msg-form h2{
     font-size: 30px;
     color: white;
@@ -158,6 +171,7 @@ a:active{
     margin-bottom: 25px;
     text-align: center;
 }
+/*inputbox styling */
 .msg-form .inputbox{
     font-family: 'Abel', sans-serif;
     position: relative;
@@ -166,6 +180,7 @@ a:active{
     align-items: center;
     text-align: center;
 }
+/*user input styling for both the input and textarea*/
 .msg-form .inputbox input,
 .msg-form .inputbox textarea{
     font-family: 'Abel', sans-serif;
@@ -179,6 +194,7 @@ a:active{
     outline: none;
     resize: none;
 }
+/*styling of the inputbox span inline container */
 .msg-form .inputbox span{
     position: absolute;
     left: 10px;
@@ -190,6 +206,7 @@ a:active{
     transition: 0.5s;
     color: black;
 }
+/*focuses when the user clicks and lets the value to appear for both user input and text area*/
 .msg-form .inputbox input:focus ~ span,
 .msg-form .inputbox input:valid ~ span,
 .msg-form .inputbox textarea:focus ~ span,
@@ -199,6 +216,7 @@ a:active{
     font-size: 14px;
     transform: translateY(-20px);
 }
+/*styling of the send button*/
 .msg-form .inputbox input[type="submit"]{
     width: 100px;
     background: white;
