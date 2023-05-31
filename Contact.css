@@ -1,0 +1,210 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    
+  
+}
+.vl {
+    border-left: 4px solid black;
+    height: 569px;
+    margin-left: 50px;
+  }
+.vl2 {
+    border-left: 4px solid black;
+    height: 700px;
+    margin-left: 50px;
+  }
+.icon{
+    padding-top: 20%;
+    padding-left: 0.8%;
+    float: left;
+    width: 00%;
+    position: fixed;
+    justify-content: space-between;
+    
+}
+header{
+    padding-top: 3px;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a :hover{
+    color: red;
+    transition: .4s;
+}
+nav input[type=text]{
+    border: 1px solid black;
+    padding: 1%;
+    border-radius: 10%;
+    font-size: 14px;
+    justify-content: space-around;
+    color: black;
+    padding: 4px 5px;
+    border-radius: 30px;  
+}
+header .logo{
+    width: 70px;
+    padding: auto;
+}
+header .logo img{
+    width: 100%;
+}
+header nav{
+    display:flex;
+    font-family: 'Outfit', sans-serif;
+}
+ nav li{
+    margin: 0px 15px;
+    
+}
+header nav li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    
+} 
+header nav li a:hover{
+    color: red;
+    transition: .4s;
+}
+a:active{
+    color: red;
+}
+.contact{
+    position: relative;
+    min-height: 50vh;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 25px;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight:500 ;
+}
+.left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.left .left-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.left .left-info .box{
+    position: relative;
+    padding: 30px 0;
+    display: flex;
+}
+.left .left-info .box .iconns{
+    min-width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.left .left-info .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 18px;
+    flex-direction: column;
+    font-weight: 600;
+    line-height: 170%;
+    font-family: 'Abel', sans-serif;
+}
+.left .left-info .box .text h3{
+    font-weight: 600;
+    color: red;
+    font-size: 24px;
+}
+.msg-form{
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    background: #000;
+    border-radius: 20px;
+}
+.msg-form h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Abel', sans-serif;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.msg-form .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+.msg-form .inputbox input,
+.msg-form .inputbox textarea{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    resize: none;
+}
+.msg-form .inputbox span{
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: black;
+}
+.msg-form .inputbox input:focus ~ span,
+.msg-form .inputbox input:valid ~ span,
+.msg-form .inputbox textarea:focus ~ span,
+.msg-form .inputbox textarea:valid ~ span{
+    margin-top: 5px;
+    color: red;
+    font-size: 14px;
+    transform: translateY(-20px);
+}
+.msg-form .inputbox input[type="submit"]{
+    width: 100px;
+    background: white;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    
+}
