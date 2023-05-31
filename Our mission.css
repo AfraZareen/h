@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    
+  
+}
+
+.vll{
+    border-left: 4px solid black;
+    height: 1220px;
+    margin-left: 50px;
+    
+}
+
+  .iconns{
+    padding-top: 20%;
+    padding-left: 0.8%;
+    width: 3%;
+    position: fixed;
+    justify-content: space-between;
+}
+header{
+    padding-top: 3px;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a :hover{
+    color: red;
+    transition: .4s;
+}
+nav input[type=text]{
+    border: 1px solid black;
+    padding: 1%;
+    border-radius: 10%;
+    font-size: 14px;
+    justify-content: space-around;
+    color: black;
+    padding: 4px 5px;
+    border-radius: 30px;  
+}
+header .logo{
+    width: 70px;
+    padding: auto;
+}
+header .logo img{
+    width: 100%;
+}
+header nav{
+    display:flex;
+    font-family: 'Outfit', sans-serif;
+}
+ nav li{
+    margin: 0px 15px;
+    
+}
+header nav li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    
+} 
+header nav li a:hover{
+    color: red;
+    transition: .4s;
+}
+a:active{
+    color: red;
+}
+.overlay-content{
+    background-image: url(bg9.jpg);
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    color: white;
+    padding: 50%;
+    border-radius: 8px;
+    margin: 0;
+    mix-blend-mode: multiply;
+    background-attachment: fixed;
+    
+}
+.overlay-content h1{
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 105px;
+    background-color: #ffffff00;
+    mix-blend-mode: multiply;
+    line-height: 120%;
+    text-align: left;
+    padding-left: 2%;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+.overlay-content h3{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 50px;
+    
+    mix-blend-mode: multiply;
+    text-align: left;
+    padding-bottom: 10%;
+}
