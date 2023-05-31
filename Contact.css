@@ -159,6 +159,7 @@ a:active{
     text-align: center;
 }
 .msg-form .inputbox{
+    font-family: 'Abel', sans-serif;
     position: relative;
     width: 100%;
     margin-top: 10px;
@@ -167,6 +168,7 @@ a:active{
 }
 .msg-form .inputbox input,
 .msg-form .inputbox textarea{
+    font-family: 'Abel', sans-serif;
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
