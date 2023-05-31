@@ -1,3 +1,4 @@
+/*same as style.cc till line 78*/
 *{
     padding: 0px;
     margin: 0px;
@@ -75,6 +76,7 @@ header nav li a:hover{
 a:active{
     color: red;
 }
+/*background image styling*/
 .overlay-content{
     background-image: url(bg9.jpg);
     height: 100%;
@@ -88,6 +90,7 @@ a:active{
     background-attachment: fixed;
     
 }
+/*text over the image styling*/
 .overlay-content h1{
     font-family: 'Secular One', sans-serif;
     position: absolute;
