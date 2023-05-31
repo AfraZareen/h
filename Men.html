@@ -25,6 +25,7 @@
     <title>Men Shoes</title>
 </head>
 <body>
+    <!--div class icon is used for the social media icons on the left side of the webpage-->
     <div class="iconns" >
         <a href="https://www.facebook.com/nike/" target="_blank"><img src="icons8-facebook.gif" alt="Facebook" width="30"></a> &nbsp;
         <a href="https://www.instagram.com/nike/?hl=en" target="_blank"><img src="icons8-instagram.gif" alt="Instagram" width="30"></a> &nbsp;
@@ -34,9 +35,9 @@
    
     
     <div class="vl3">
-       
+       <!--vl here is used to add vertical line on the left side of the page-->
         <header>
-        
+        <!--logo, navigation bar, search box and icons is placed on the top as header-->
             <div class="logo">
                 <img class="logo1" src="logo.png" alt="nike logo">
             </div>
@@ -57,14 +58,15 @@
         </nav>
         
     </header>
+    <!--product items with images its title and price as well the shopping bag logo-->
     <section class="Shop-products">
         <h2 class="section-title">SHOP PRODUCTS</h2>
         <div class="shop-description">
-            <div class="item-box">
+            <div class="item-box"> <!--div class for each image and its content for styling-->
                 <img src="men 1.png" alt="" class="product-img">
                 <h2 class="item-title">Nike Air Max 90 Essential Sports</h2>
                 <span class="price">AED 300</span>
-                <i class='bx bx-shopping-bag add-to-cart'></i>
+                <i class='bx bx-shopping-bag add-to-cart'></i> <!--shopping cart icon-->
             </div>
             <div class="item-box">
                 <img src="men 2.png" alt="" class="product-img">
@@ -110,26 +112,27 @@
             </div>
         </div>
     </section>
+    <!--this div class is for the shopping menu when clicked on the top shopping cart will show your items in the cart-->
     <div class="carttts">
         <h2 class="carttts-title">YOUR CART</h2>
         <div class="carttts-cont">
             <div class="carttts-box">
-                <img src="men 2.png" alt="" class="carttts-images">
+                <img src="men 2.png" alt="" class="carttts-images"> <!--image its detail and its price will be shown in the shopping menu-->
                 <div class="detail-box">
                     <div class="carttts-product-title">
                         SHOE
                     </div>
                     <div class="carttts-price">AED 400</div>
-                    <input type="number" value="1" class="carttts-quantity">
+                    <input type="number" value="1" class="carttts-quantity"> <!--to input the quantity of shoes that is to be purchased-->
                 </div>
                 <i class='bx bx-trash item-removal'></i>
             </div>
         </div>
         <div class="total">
             <div class="total-title">TOTAL</div>
-            <div class="total-price">AED 0</div>
+            <div class="total-price">AED 0</div> <!--shows the total price purchased-->
         </div>
-        <button type="button" class="btn-buy">BUY NOW</button>
+        <button type="button" class="btn-buy">BUY NOW</button><!--button for the buy now-->
         <i class='bx bx-x' id="close-menu"></i>
     </div>
     <script src="shop.js"></script>
