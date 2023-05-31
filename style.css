@@ -6,16 +6,19 @@
     
   
 }
+/*for vertical line*/
 .vl {
     border-left: 4px solid black;
     height: 569px;
     margin-left: 50px;
   }
+  /*vertical line*/
 .vl2 {
     border-left: 4px solid black;
     height: 700px;
     margin-left: 50px;
   }
+  /*icon on the left side */
 .icon{
     padding-top: 20%;
     padding-left: 0.8%;
@@ -25,6 +28,7 @@
     justify-content: space-between;
     
 }
+/*complete header part*/
 header{
     padding-top: 3px;
     font-size: 17px;
@@ -36,11 +40,12 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
+/*when hovered on the links*/
 header a :hover{
     color: red;
     transition: .4s;
 }
+/*search bar on the navigation*/
 nav input[type=text]{
     border: 1px solid black;
     padding: 1%;
@@ -51,6 +56,7 @@ nav input[type=text]{
     padding: 4px 5px;
     border-radius: 30px;  
 }
+/*logo*/
 header .logo{
     width: 70px;
     padding: auto;
@@ -58,6 +64,7 @@ header .logo{
 header .logo img{
     width: 100%;
 }
+/*navigation bar, lists and links*/
 header nav{
     display:flex;
     font-family: 'Outfit', sans-serif;
@@ -72,6 +79,7 @@ header nav li a{
     color: #000;
     
 } 
+/*when hovered over the nav links*/
 header nav li a:hover{
     color: red;
     transition: .4s;
@@ -79,6 +87,7 @@ header nav li a:hover{
 a:active{
     color: red;
 }
+/*content of the page*/
 .container{
     width: 90%;
     margin: auto;
@@ -94,9 +103,11 @@ a:active{
     letter-spacing: 3px;
     font-family: 'Orbitron', sans-serif;
 }
+/*span color change for particular word*/
 .color_change{
     font-family: 'Racing Sans One', cursive;
 }
+/*buy now link*/
 .container .linkcart a{
     color: white;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -110,6 +121,7 @@ a:active{
     border-radius: 30px;  
 
 }
+/*logo of nike and air jordan*/
 .container .cross{
     width: 80px;
     display: flex;
@@ -119,6 +131,7 @@ a:active{
 .container .cross img{
     width: 90px;
 }
+/*content below the cross class*/
 .container .content{
     margin-top: 5%;
     position: relative;
@@ -127,6 +140,7 @@ a:active{
 .container .section{
     padding-left: 20%;
 }
+/*at the bottom of the page*/
 .smaller_shoes{
     display: flex;
     width: 100%;
@@ -140,7 +154,7 @@ a:active{
     text-align: center;
     
 }
-
+/*when clicked this will appear with the styling*/
 .bgimg{
     text-align: right;
     position: relative;
@@ -149,6 +163,7 @@ a:active{
     width: 80%;
 
 }
+/*styling at the back of the bgimg*/
 .shadow{
     position: absolute;
     top: 50%;
@@ -164,7 +179,7 @@ a:active{
     padding: 10px;
     border-radius: 10%;
 }
-
+/*transition when hovered over the small shoes*/
 .trans{
     transition: 0.5s;
 }
@@ -173,18 +188,20 @@ a:active{
 }
 
 /* What's New */
+/*top heading of the page*/
 .summer{
     font-size: 58px;
     margin-bottom: 5px;
     letter-spacing: 3px;
     font-family: 'Monomaniac One', sans-serif;
 }
+/*text below the heading*/
 .some-txt{
     text-align: center;
     font-size: 18px;
     font-family: 'Abel', sans-serif;
 }
-
+/*the four image styling*/
 .new_images{
     display: flex;
     padding-top: 4%;
@@ -194,6 +211,7 @@ a:active{
 .new_images img{
     margin: 10px;
 }
+/*4 images were added under class slide with its content heading*/
 .slide{
     text-align: center;
     width: 270px;
@@ -201,10 +219,12 @@ a:active{
     padding-left: 30px;
     font-family: 'IBM Plex Sans', sans-serif;
 }
+/*color change when hovered over the text*/
 .slide:hover{
     transition: 0.4s;
     color: red;
 }
+/*transition of image when hovered */
 .slide img{
     width: 100%;
     transition: 0.5s all ease-in-out;
@@ -212,7 +232,7 @@ a:active{
 .slide:hover img{
     transform: scale(1.1);
 }
-
+/*icons on top corner of the page*/
 #cart-icon{
     cursor: pointer;
     font-size: 1.3rem;
@@ -225,4 +245,3 @@ a:active{
     cursor: pointer;
     font-size: 1.3rem;
 }
-/* Men */
