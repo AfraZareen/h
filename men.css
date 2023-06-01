@@ -19,12 +19,12 @@
 }
 .vl3 {
     border-left: 4px solid black;
-    height: 950px;
+    height: 970px;
     margin-left: 50px;
 }
 header{
     padding-top: 3px;
-    font-size: 17px;
+    font-size: 16.5px;
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
@@ -265,4 +265,12 @@ img{
     font-size: 32px;
     color: #000;
     cursor: pointer;
+}
+footer{
+    background-color: #000;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin-left: -55px;
 }
