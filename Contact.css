@@ -28,7 +28,7 @@
 }
 header{
     padding-top: 3px;
-    font-size: 17px;
+    font-size: 16.5px;
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
@@ -227,4 +227,12 @@ a:active{
     font-size: 18px;
     border-radius: 20px;
     
+}
+footer{
+    background-color: #000;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin-left: -55px;
 }
